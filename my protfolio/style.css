@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+
+}
+.protfolio-container{
+min-height: 100vh;
+width: 100%;
+display: flex;
+
+}
+
+.navlist {
+display: flex;
+gap: 3.5rem;
+position:fixed;
+height:15vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.navlist li{
+list-style: none;
+}
+.navlist li a{
+text-decoration: none;
+text-transform:uppercase;
+font-size: 1rem;
+color: #fff;
+position: relative;
+}
+.left-container,.right-container
+{
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.left-container
+ {
+  background: #262525;
+  width:90%;
+  padding-left: 12rem;
+}
+
+.right-container
+ {
+background:linear-gradient(-45deg,#3877FF,#262525 70%) ;
+width:30%;
+
+}
+
+.circle-image {
+  border-radius: 70%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 30px; 
+  margin-left: 20px; 
+}
+
+.circle-image img {
+  width: 100%;
+  height: auto;
+}
+.navlist li:hover {
+  background: linear-gradient(#fff,#3877FF);
+}
+
+
+.navlist li {
+  transition: color 0.3s ease;
+}
+
+.icons{
+color:#fff;
+font-size: 1.7rem;
+}
+.left-container .icons{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:3rem;
+
+}
+.content{
+margin-left: 4rem;
+}
+.content .intro{
+font-size: 1.5rem;
+color: #fff;
+}
+.content .intro span{
+font-size: 1.5rem;
+color: #5db9ee;
+}
+.content h1{
+font-size: 2rem;
+color: #5db9ee;
+
+}
+.content .details{
+font-size: 1.5rem;
+color:#fff;
+max-width: 42rem;
+margin:1.5rem 0 3rem 0;
+
+}
+.btn-container button{
+border:.1rem solid #5db9ee;
+font-size: 1.1rem;
+padding:.8rem 1.5rem;
+border-radius: 5rem;
+cursor:pointer;
+transition: .5s ease;
+
+}
+button:nth-child(2):hover
+{
+background: #5db9ee;
+color: #262525;
+}
+button:nth-child(1):hover{
+background: transparent;
+color:#5db9ee;
+margin-left:2rem;
+}
+button:nth-child(2):hover
+{
+background: #5db9ee;
+color:#262525;
+}
+.icons .fa:hover{
+cursor:pointer;
+background: linear-gradient(#fff,#3877FF);
+-webkit-background-clip:text ;
+-webkit-text-fill-color:transparent ;
+}
+.icons {
+  margin-top: 20px;
+}
+
+.icons i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #fff;
+  transition: color 0.3s ease; 
+}
+
+.icons i:hover {
+  color: #007bff; 
+}
+
